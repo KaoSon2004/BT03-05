@@ -1,3 +1,4 @@
+
 #include<iostream>
 using namespace std;
 int main() {
@@ -7,8 +8,8 @@ int main() {
     int y = col;
     int i, j, p = 0;
     int k = 1;
-    int c[100][100];
-    while (k <= x * y) {
+    int c[row][col];
+    while (k <= x *y) {
         for (i = p; i < col; i++) {
             c[p][i] = k++;
         }
@@ -34,3 +35,4 @@ int main() {
         cout << endl;
     }
 }
+
